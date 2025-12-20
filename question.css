@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: #B2BD7E;
+    color: #fff;
+}
+.navbar{
+    background-color: #5D4A66;
+    color: #fff;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.body-part{
+    display: flex;
+}
+
+.content{
+    /* height: 820px; */
+    height: auto;
+    width: 40%;
+    background-color: #E9D985;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10%;
+}
+
+.content p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2rem;
+    color: saddlebrown;
+    font-weight: bold;
+}
+
+.Twenty-five{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2rem;
+    color: saddlebrown;
+    font-weight: bold;
+}
+.Twenty-five:hover{
+    color: blueviolet;
+    font-size: 1.8rem;
+}
+
+.Twenty-five-sets{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.pdf-browser{
+    /* height: 820px; */
+    height: auto;
+    width: 40%;
+    background-color: #749C75 ;
+    margin-left: 250px;
+    margin-top: 20px;
+    border-radius: 10%;
+}
+
+.pdf-browser p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+}
+
+@media (max-width: 768px){
+    .body-part{
+        display: block;
+    }
+    .content, .pdf-browser {
+        width: 100%;
+        height: auto;
+        position: relative;
+        margin-top: 20px;
+    }
+    .pdf-browser{
+        margin-left: 20px;
+    }
+}
