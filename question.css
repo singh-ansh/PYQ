@@ -90,7 +90,11 @@ body{
         margin-top: 20px;
     }
     .pdf-browser{
-        margin-left: 20px;
+        margin-left: 0px;
+    }
+    .content{
+        margin-left : 0px;
+
     }
 
 }
@@ -175,3 +179,4 @@ body{
         transform: none;
     }
 }
+
