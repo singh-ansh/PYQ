@@ -42,6 +42,11 @@ body{
     font-weight: bold;
 }
 
+.content p:hover{
+    color : black;
+    font-weight: bolder;
+}
+
 .Twenty-five{
     text-align: center;
     margin-top: 20px;
@@ -77,8 +82,23 @@ body{
     font-size: 2rem;
     color: black;
     font-weight: bold;
+
 }
 
+.pdf-browser p:hover{
+    color: rgb(202, 14, 14);
+}
+
+.More-cbse{
+    margin-left: 400px;
+    background-color: #7D8CA3;
+}
+
+.More-cbse p:hover{
+    color: red;
+
+
+}
 @media (max-width: 768px){
     .body-part{
         display: block;
@@ -179,4 +199,3 @@ body{
         transform: none;
     }
 }
-
