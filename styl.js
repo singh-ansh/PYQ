@@ -5,9 +5,9 @@ function myFunction(x) {
     if (x.matches) { // If media query matches
         // document.body.style.backgroundColor = "yellow";
         let inp = prompt("Enter the subject Math or Science :");
-        if (inp === "math" || inp === "Math" || inp === "Mathematics" || inp === "mathematics" || inp === "MATHEMATICS") {
+        if (inp === "math" || inp === "Math" || inp === "Mathematics" || inp === "mathematics" || inp === "MATHEMATICS" ||inp === "MATH") {
             science.replaceWith(Math);
-        } else if (inp === "Science" || inp === "science" || inp === "Sci" || inp === "sci" || inp === "SCIENCE") {
+        } else if (inp === "Science" || inp === "science" || inp === "Sci" || inp === "sci" || inp === "SCIENCE" || inp === "SCI") {
             Math.replaceWith(science);
         } else {
             alert("Not Available ! ");
@@ -29,4 +29,5 @@ myFunction(x);
 // Attach listener function on state changes
 x.addEventListener("change", function () {
     myFunction(x);
+
 });
